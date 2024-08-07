@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  FoodDonation
-//
-//  Created by Sunil Balami on 2024-07-30.
-//
-
 import UIKit
 
 class ViewController: UIViewController {

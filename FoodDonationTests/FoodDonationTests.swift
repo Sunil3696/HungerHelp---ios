@@ -1,10 +1,3 @@
-//
-//  FoodDonationTests.swift
-//  FoodDonationTests
-//
-//  Created by Sunil Balami on 2024-07-30.
-//
-
 import XCTest
 @testable import FoodDonation
 

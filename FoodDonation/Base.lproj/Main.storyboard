@@ -875,7 +875,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gCM-Rn-MOU"/>
-                        <color key="backgroundColor" red="0.086274509803921567" green="0.086274509803921567" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="6Iw-Np-c1N" firstAttribute="leading" secondItem="gCM-Rn-MOU" secondAttribute="leading" constant="20" id="A4f-OP-bgi"/>
                             <constraint firstItem="gCM-Rn-MOU" firstAttribute="trailing" secondItem="SaL-3c-jDz" secondAttribute="trailing" constant="20" id="C2M-xc-DNS"/>
@@ -923,7 +923,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.086274509799999996" green="0.086274509799999996" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" red="0.086274509799999996" green="0.086274509799999996" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ApprovedRequestCell" rowHeight="122" id="R0G-7U-77s" customClass="ApprovedRequestTableViewCell" customModule="FoodDonation" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="414" height="122"/>
@@ -969,7 +969,7 @@
                                                 </stackView>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.086274509799999996" green="0.086274509799999996" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
                                             <outlet property="foodImageView" destination="kAS-1R-mXN" id="fAU-lp-GF4"/>
                                             <outlet property="foodItemLabel" destination="U8n-eh-zYo" id="n6y-wu-acp"/>
@@ -1086,7 +1086,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Kww-Jb-Ph3"/>
-                        <color key="backgroundColor" red="0.086274509803921567" green="0.086274509803921567" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Donated" image="cup.and.saucer" catalog="system" id="pPI-46-Dc3"/>
                     <connections>
@@ -1449,7 +1449,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="j98-ue-6ZK"/>
+        <segue reference="785-IA-1sQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="1" width="275" height="183"/>
@@ -1460,7 +1460,7 @@
         <image name="person.crop.circle" catalog="system" width="128" height="123"/>
         <image name="target" catalog="system" width="128" height="123"/>
         <systemColor name="tableCellBlueTextColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

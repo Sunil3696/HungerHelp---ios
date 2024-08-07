@@ -1,9 +1,3 @@
-//
-//  FoodViewController.swift
-//  FoodDonation
-//
-//  Created by Sunil Balami on 2024-07-31.
-//
 import UIKit
 
 let baseURL = "http://localhost:3000/"
@@ -84,23 +78,30 @@ class FoodViewController: UIViewController {
 
     private func setupCollectionViews() {
         let categoriesLayout = UICollectionViewFlowLayout()
-        categoriesLayout.scrollDirection = .horizontal
-        categoriesLayout.itemSize = CGSize(width: 100, height: 100)
-        categoriesLayout.minimumLineSpacing = 10
-        categoriesLayout.minimumInteritemSpacing = 10
-        categoriesLayout.sectionInset = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
+            categoriesLayout.scrollDirection = .horizontal
+            categoriesLayout.itemSize = CGSize(width: 100, height: 100)
+            categoriesLayout.minimumLineSpacing = 10
+            categoriesLayout.minimumInteritemSpacing = 10
+            categoriesLayout.sectionInset = UIEdgeInsets(top: 0, left: 20, bottom: 0, right: 20)
 
-        categoriesCollectionView.setCollectionViewLayout(categoriesLayout, animated: true)
-        categoriesCollectionView.showsHorizontalScrollIndicator = false
-        categoriesCollectionView.delegate = self
-        categoriesCollectionView.dataSource = self
+            categoriesCollectionView.setCollectionViewLayout(categoriesLayout, animated: true)
+            categoriesCollectionView.showsHorizontalScrollIndicator = false
+            categoriesCollectionView.delegate = self
+            categoriesCollectionView.dataSource = self
 
-        recentlyAddedCollectionView.delegate = self
-        recentlyAddedCollectionView.dataSource = self
+            let recentlyAddedLayout = UICollectionViewFlowLayout()
+            recentlyAddedLayout.scrollDirection = .vertical
+            recentlyAddedLayout.minimumLineSpacing = 0 // Set to 0 to remove space between rows
+            recentlyAddedLayout.minimumInteritemSpacing = 0 // Set to 0 to remove space between items
+            recentlyAddedLayout.sectionInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
 
-        // Add refresh control to recently added collection view
-        recentlyAddedCollectionView.refreshControl = refreshControl
-        refreshControl.addTarget(self, action: #selector(refreshData(_:)), for: .valueChanged)
+            recentlyAddedCollectionView.setCollectionViewLayout(recentlyAddedLayout, animated: true)
+            recentlyAddedCollectionView.delegate = self
+            recentlyAddedCollectionView.dataSource = self
+
+            // Add refresh control to recently added collection view
+            recentlyAddedCollectionView.refreshControl = refreshControl
+            refreshControl.addTarget(self, action: #selector(refreshData(_:)), for: .valueChanged)
     }
 
     @objc private func refreshData(_ sender: Any) {

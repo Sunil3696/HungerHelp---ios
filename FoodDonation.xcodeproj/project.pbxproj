@@ -165,6 +165,14 @@
 		10C139DC2C59891300DD7224 /* FoodDonation */ = {
 			isa = PBXGroup;
 			children = (
+				E9514EDC2C6315B90093117B /* Others */,
+				E9514EDB2C63157E0093117B /* Auth */,
+				E9514EDA2C6315690093117B /* AllFood */,
+				E9514ED92C63154C0093117B /* Home */,
+				E9514ED82C6314DA0093117B /* Keychain */,
+				E9514ED52C6314B50093117B /* RequestedFood */,
+				E9514ED42C63149E0093117B /* ApprovedFood */,
+				E9514ED32C63148B0093117B /* DonateFood */,
 				10C139DD2C59891300DD7224 /* AppDelegate.swift */,
 				10C139DF2C59891300DD7224 /* SceneDelegate.swift */,
 				10C139E12C59891300DD7224 /* ViewController.swift */,
@@ -173,24 +181,6 @@
 				10C139E82C59891400DD7224 /* LaunchScreen.storyboard */,
 				10C139EB2C59891400DD7224 /* Info.plist */,
 				10B920AC2C60890700880B1C /* GoogleService-Info.plist */,
-				10FD366B2C59FE3600FE963E /* FoodViewController.swift */,
-				108947CA2C61B53E00E91196 /* AllFoodViewController.swift */,
-				10B920B02C608EAC00880B1C /* LoginViewController.swift */,
-				10B920B22C60962200880B1C /* RegisterViewController.swift */,
-				10B920B42C609D4100880B1C /* KeychainHelper.swift */,
-				10CC33DE2C6183BB00B62F97 /* RecentlyAddedCollectionViewCell.swift */,
-				10CC33E02C6183DE00B62F97 /* CategoryCollectionViewCell.swift */,
-				108947CC2C61B98900E91196 /* AllFoodCollectionViewCell.swift */,
-				108947CE2C61C0F600E91196 /* DonationDetailViewController.swift */,
-				108947D02C61EF3300E91196 /* AddFoodViewController.swift */,
-				108947D62C6202B100E91196 /* MyRequestViewController.swift */,
-				108947DE2C626B8C00E91196 /* RequestedCell.swift */,
-				108947E02C6284EF00E91196 /* ProfileViewController.swift */,
-				108947E22C6289F900E91196 /* ChangePasswordViewController.swift */,
-				108947EC2C62969900E91196 /* MyDonatedFoodViewController.swift */,
-				108947F22C62978600E91196 /* MyDonatedFoodTableViewCell.swift */,
-				108947F42C62D3F500E91196 /* ApprovedRequestsViewController.swift */,
-				108947F62C62D41400E91196 /* ApprovedRequestTableViewCell.swift */,
 			);
 			path = FoodDonation;
 			sourceTree = "<group>";
@@ -210,6 +200,80 @@
 				10C13A002C59891400DD7224 /* FoodDonationUITestsLaunchTests.swift */,
 			);
 			path = FoodDonationUITests;
+			sourceTree = "<group>";
+		};
+		E9514ED32C63148B0093117B /* DonateFood */ = {
+			isa = PBXGroup;
+			children = (
+				108947EC2C62969900E91196 /* MyDonatedFoodViewController.swift */,
+				108947F22C62978600E91196 /* MyDonatedFoodTableViewCell.swift */,
+			);
+			path = DonateFood;
+			sourceTree = "<group>";
+		};
+		E9514ED42C63149E0093117B /* ApprovedFood */ = {
+			isa = PBXGroup;
+			children = (
+				108947F42C62D3F500E91196 /* ApprovedRequestsViewController.swift */,
+				108947F62C62D41400E91196 /* ApprovedRequestTableViewCell.swift */,
+			);
+			path = ApprovedFood;
+			sourceTree = "<group>";
+		};
+		E9514ED52C6314B50093117B /* RequestedFood */ = {
+			isa = PBXGroup;
+			children = (
+				108947D62C6202B100E91196 /* MyRequestViewController.swift */,
+				108947DE2C626B8C00E91196 /* RequestedCell.swift */,
+			);
+			path = RequestedFood;
+			sourceTree = "<group>";
+		};
+		E9514ED82C6314DA0093117B /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				10B920B42C609D4100880B1C /* KeychainHelper.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		E9514ED92C63154C0093117B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				10FD366B2C59FE3600FE963E /* FoodViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E9514EDA2C6315690093117B /* AllFood */ = {
+			isa = PBXGroup;
+			children = (
+				108947CC2C61B98900E91196 /* AllFoodCollectionViewCell.swift */,
+				108947CA2C61B53E00E91196 /* AllFoodViewController.swift */,
+			);
+			path = AllFood;
+			sourceTree = "<group>";
+		};
+		E9514EDB2C63157E0093117B /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				108947E02C6284EF00E91196 /* ProfileViewController.swift */,
+				108947E22C6289F900E91196 /* ChangePasswordViewController.swift */,
+				10B920B02C608EAC00880B1C /* LoginViewController.swift */,
+				10B920B22C60962200880B1C /* RegisterViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E9514EDC2C6315B90093117B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				10CC33DE2C6183BB00B62F97 /* RecentlyAddedCollectionViewCell.swift */,
+				10CC33E02C6183DE00B62F97 /* CategoryCollectionViewCell.swift */,
+				108947CE2C61C0F600E91196 /* DonationDetailViewController.swift */,
+				108947D02C61EF3300E91196 /* AddFoodViewController.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
